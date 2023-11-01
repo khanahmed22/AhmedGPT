@@ -1,0 +1,6 @@
+package com.khanahmed.ahmedgpt
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
