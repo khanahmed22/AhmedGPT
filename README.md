@@ -1,7 +1,4 @@
 # AhmedGPT
 
-A new Flutter project.
+AhmedGPT: AI powered productivity at your fingertips.
 
-## Getting Started
-
-FlutterFlow projects are built to run on the Flutter _stable_ release.
