@@ -140,8 +140,11 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                   child: Padding(
                                                     padding:
                                                         EdgeInsetsDirectional
-                                                            .fromSTEB(80.0,
-                                                                20.0, 0.0, 0.0),
+                                                            .fromSTEB(
+                                                                80.0,
+                                                                20.0,
+                                                                0.0,
+                                                                17.0),
                                                     child: Text(
                                                       'AhmedGPT',
                                                       style: FlutterFlowTheme
