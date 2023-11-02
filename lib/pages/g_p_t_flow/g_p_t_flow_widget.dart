@@ -140,11 +140,8 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                   child: Padding(
                                                     padding:
                                                         EdgeInsetsDirectional
-                                                            .fromSTEB(
-                                                                80.0,
-                                                                20.0,
-                                                                0.0,
-                                                                17.0),
+                                                            .fromSTEB(80.0,
+                                                                20.0, 0.0, 0.0),
                                                     child: Text(
                                                       'AhmedGPT',
                                                       style: FlutterFlowTheme
@@ -570,8 +567,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                       await OpenAIChatGPTGroup
                                           .sendFullPromptCall
                                           .call(
-                                    apiKey:
-                                        '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',
+                                    apiKey: '\"Put your own Open AI Key\"',
                                     promptJson: _model.chatHistory,
                                   );
                                   if ((_model.chatGPTResponse?.succeeded ??
